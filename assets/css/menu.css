@@ -1,0 +1,72 @@
+.menu-area {
+  position: static !important;
+}
+
+.mega-area {
+  background: #ccc;
+  width: 100%;
+  border: none;
+  overflow: hidden;
+}
+
+.about-top {
+  position: absolute;
+  top: 2.5rem;
+  margin-left: 2rem;
+  width: 10px;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+  display: none;
+}
+
+.my-work-top {
+  position: absolute;
+  top: 2.5rem;
+  margin-left: 2rem;
+  width: 10px;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+  display: none;
+}
+
+.contact-top {
+  position: absolute;
+  top: 2.5rem;
+  margin-left: 2rem;
+  width: 10px;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+  display: none;
+}
+
+.connect-top {
+  position: absolute;
+  top: 2.5rem;
+  margin-left: 2rem;
+  width: 10px;
+  border: 10px solid;
+  border-color: transparent transparent #fff transparent;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .about-top {
+    top: 7rem;
+    margin-left: 1.5rem;
+  }
+
+  .my-work-top {
+    top: 9.5rem;
+    margin-left: 1.5rem;
+  }
+
+  .contact-top {
+    top: 12rem;
+    margin-left: 1.5rem;
+  }
+
+  .connect-top {
+    top: 14.5rem;
+    margin-left: 1.5rem;
+  }
+}
